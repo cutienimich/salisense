@@ -55,6 +55,8 @@
     max-width: 700px;
     margin: 0 auto;
     padding: 40px 20px;
+    
+    
 }
 
 .main h1 {
@@ -343,60 +345,4 @@
     .questions-section h2 {
         font-size: 1.1rem;
     }
-}
-
-.bg-emoji {
-  position: absolute;
-  opacity: 0.15;
-}
-
-/* Random placements */
-
-.e1 {
-  top: 10%;
-  left: 8%;
-  width: 80px;
-  transform: rotate(45deg);
-}
-
-.e2 {
-  top: 25%;
-  right: 10%;
-  width: 120px;
-  transform: rotate(-45deg);
-}
-
-.e3 {
-  bottom: 20%;
-  left: 15%;
-  width: 90px;
-  transform: rotate(45deg);
-}
-
-.e4 {
-  top: 60%;
-  right: 25%;
-  width: 110px;
-  transform: rotate(-45deg);
-}
-
-.e5 {
-  bottom: 10%;
-  right: 5%;
-  width: 140px;
-  transform: rotate(45deg);
-}
-
-.e6 {
-  top: 40%;
-  left: 35%;
-  width: 70px;
-  transform: rotate(-45deg);
-}
-
-.e7 {
-  top: 5%;
-  right: 35%;
-  width: 100px;
-  transform: rotate(45deg);
 }

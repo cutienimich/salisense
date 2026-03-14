@@ -7,7 +7,6 @@ import { useNavigate, useLocation, Link } from 'react-router-dom';
 
 
 
-
 export default function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -40,19 +39,11 @@ const handleLogin = async (e) => {
 
     return (
         <div className="landing-page">
-
             {/* Section 1 - Title */}
             <section className="section title-section">
-                <img src="/angry.png" className="bg-emoji e7" />
-                <img src="/happy.png" className="bg-emoji e6" />
-                <img src="/cool.png" className="bg-emoji e5" />
-                <img src="/uwu.png" className="bg-emoji e4" />
-                <img src="/silly.png" className="bg-emoji e3" />
-                <img src="/sad.png" className="bg-emoji e2" />
-                <img src="/emotion1.png" className="bg-emoji e1" />
-            
-                <h1 className="title">SaliSense</h1>
-                <p className="subtitle">Survey Form na may kakayahang tumukoy ng emosyon</p>
+
+                <img src="/title.png" alt="SaliSense" className="title-img" />
+                <p className="subtitle">Survey Form na kayang mag tumukoy ng sensimento sa isang kasagutan.</p>
                 <a href="#login-section" className="scroll-down">
                     <img src="../Magsimula.png" alt="" />
                 </a>
@@ -131,13 +122,6 @@ const handleLogin = async (e) => {
 
             {/* Section 5 - Meet the Developers */}
             <section className="section developers-section">
-                <img src="/angry.png" className="bg-emoji e7" />
-                <img src="/happy.png" className="bg-emoji e6" />
-                <img src="/cool.png" className="bg-emoji e5" />
-                <img src="/uwu.png" className="bg-emoji e4" />
-                <img src="/silly.png" className="bg-emoji e3" />
-                <img src="/sad.png" className="bg-emoji e2" />
-                <img src="/emotion1.png" className="bg-emoji e1" />
                 <h2>Kilalanin ang Aming mga Developer</h2>
                 <div className="developers-grid">
                     <div className="developer-card">

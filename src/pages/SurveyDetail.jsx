@@ -417,15 +417,6 @@ const fetchAnalytics = async () => {
             </header>
 
             <main className="main">
-                <div className = "emoji-bakground">
-                    <img src="/angry.png" className="bg-emoji e7" />
-                <img src="/happy.png" className="bg-emoji e6" />
-                <img src="/cool.png" className="bg-emoji e5" />
-                <img src="/uwu.png" className="bg-emoji e4" />
-                <img src="/silly.png" className="bg-emoji e3" />
-                <img src="/sad.png" className="bg-emoji e2" />
-                <img src="/emotion1.png" className="bg-emoji e1" />
-                </div>
                 <div className="page-top">
                     <button className="btn-back" onClick={() => navigate('/dashboard')}>← Bumalik</button>
                     <div className="survey-title-area">

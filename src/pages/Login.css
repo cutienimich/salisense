@@ -8,6 +8,8 @@
 body {
 font-family: 'Ubuntu', sans-serif;
     color: #303030;
+    
+       
 }
 
 .landing-page {
@@ -26,15 +28,15 @@ font-family: 'Ubuntu', sans-serif;
 
 /* Title Section */
 .title-section {
-    background-color: #eeeeee;
     text-align: center;
 }
 
-.title {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #303030;
-    margin-bottom: 16px;
+.title-img {
+    width: 380px;
+    max-width: 90%;
+    height: auto;
+    
+    object-fit: contain;
 }
 
 .subtitle {
@@ -64,7 +66,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .login-form-card {
-    background: #2a2a2a;
+
     border: 1px solid #404040;
     border-radius: 16px;
     padding: 40px;
@@ -378,64 +380,3 @@ font-family: 'Ubuntu', sans-serif;
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* ============================================
-   RESPONSIVE — TABLET (max-width: 768px)
-   ============================================ */
-@media (max-width: 768px) {
-    .bg-emoji.e1 { width: 160px; }
-    .bg-emoji.e2 { width: 130px; }
-    .bg-emoji.e3 { width: 190px; }
-    .bg-emoji.e4 { width: 110px; }
-    .bg-emoji.e5 { width: 110px; }
-    .bg-emoji.e6 { width: 110px; }
-    .bg-emoji.e7 { width: 110px; }
-}
-
-/* ============================================
-   RESPONSIVE — MOBILE (max-width: 480px)
-   ============================================ */
-@media (max-width: 480px) {
-    .bg-emoji { opacity: 0.05; }
-
-    .bg-emoji.e1 {
-        width: 50px;
-        top: 5%;
-        left: 2%;
-    }
-
-    .bg-emoji.e2 {
-        width: 60px;
-        top: 70%;
-        right: 2%;
-    }
-
-    .bg-emoji.e3 {
-        width: 40px;
-        bottom: 2%;
-        left: 20%;
-    }
-
-    .bg-emoji.e4 {
-        width: 30px;
-        top: 15%;
-        right: 5%;
-    }
-
-    .bg-emoji.e5 {
-        width: 80px;
-        top: 50%;
-        right: 60%;
-    }
-
-    .bg-emoji.e6 {
-        width: 80px;
-        top: 5%;
-        right: 35%;
-    }
-
-    .bg-emoji.e7 {
-        width: 80px;
-        top: 75%;
-        right: 35%;
-    }
-}

@@ -4,6 +4,9 @@
     background-color: #f0f4ff;
     font-family: 'Ubuntu', sans-serif;
 }
+body{
+    background-color: #f0f4ff;
+}
 
 /* Header */
 .header {
@@ -531,121 +534,4 @@
 }
 
 
-.bg-emoji {
-  position: absolute;
-  opacity: 0.15;
-  
-}
 
-/* Random placements */
-
-.e1 {
-  top: 10%;
-  left: 8%;
-  width: 80px;
-  transform: rotate(45deg);
-}
-
-.e2 {
-  top: 25%;
-  right: 10%;
-  width: 120px;
-  transform: rotate(-45deg);
-}
-
-.e3 {
-  bottom: 20%;
-  left: 15%;
-  width: 90px;
-  transform: rotate(45deg);
-}
-
-.e4 {
-  top: 60%;
-  right: 25%;
-  width: 110px;
-  transform: rotate(-45deg);
-}
-
-.e5 {
-  bottom: 10%;
-  right: 5%;
-  width: 140px;
-  transform: rotate(45deg);
-}
-
-.e6 {
-  top: 40%;
-  left: 35%;
-  width: 70px;
-  transform: rotate(-45deg);
-}
-
-.e7 {
-  top: 5%;
-  right: 35%;
-  width: 100px;
-  transform: rotate(45deg);
-}
-
-/* ============================================
-   RESPONSIVE — TABLET (max-width: 768px)
-   ============================================ */
-@media (max-width: 768px) {
-    .bg-emoji.e1 { width: 160px; }
-    .bg-emoji.e2 { width: 130px; }
-    .bg-emoji.e3 { width: 190px; }
-    .bg-emoji.e4 { width: 110px; }
-    .bg-emoji.e5 { width: 110px; }
-    .bg-emoji.e6 { width: 110px; }
-    .bg-emoji.e7 { width: 110px; }
-}
-
-/* ============================================
-   RESPONSIVE — MOBILE (max-width: 480px)
-   ============================================ */
-@media (max-width: 480px) {
-    .bg-emoji { opacity: 0.05; }
-
-    .bg-emoji.e1 {
-        width: 50px;
-        top: 5%;
-        left: 2%;
-    }
-
-    .bg-emoji.e2 {
-        width: 60px;
-        top: 70%;
-        right: 2%;
-    }
-
-    .bg-emoji.e3 {
-        width: 40px;
-        bottom: 2%;
-        left: 20%;
-    }
-
-    .bg-emoji.e4 {
-        width: 30px;
-        top: 15%;
-        right: 5%;
-    }
-
-    .bg-emoji.e5 {
-        width: 80px;
-        top: 50%;
-        right: 60%;
-    }
-
-    .bg-emoji.e6 {
-        width: 80px;
-        top: 5%;
-        right: 35%;
-    }
-
-    .bg-emoji.e7 {
-        width: 80px;
-        top: 75%;
-        right: 35%;
-    }
-}

@@ -213,13 +213,6 @@ if (loading) {
             </header>
 
             <main className="main">
-                                    <img src="/angry.png" className="bg-emoji e7" />
-                <img src="/happy.png" className="bg-emoji e6" />
-                <img src="/cool.png" className="bg-emoji e5" />
-                <img src="/uwu.png" className="bg-emoji e4" />
-                <img src="/silly.png" className="bg-emoji e3" />
-                <img src="/sad.png" className="bg-emoji e2" />
-                <img src="/emotion1.png" className="bg-emoji e1" />
                 {/* Survey Info */}
                 <div className="survey-info-card">
                     <h1>{survey?.title}</h1>

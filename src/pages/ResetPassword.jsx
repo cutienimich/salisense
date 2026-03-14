@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams, Link } from 'react-router-dom';
 import api from '../services/api';
 import './ResetPassword.css';
-
 export default function ResetPassword() {
     const [searchParams] = useSearchParams();
     const [newPassword, setNewPassword] = useState('');
